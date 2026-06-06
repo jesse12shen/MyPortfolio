@@ -1,0 +1,650 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Fan}{article}{}
+      \name{author}{3}{}{%
+        {{hash=71edeacaf81229eeda743e9542706d6d}{%
+           family={Zeleniak},
+           familyi={Z\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b18b764563d3e70944056209a731206c}{%
+           family={Weigand},
+           familyi={W\bibinitperiod},
+           given={Connor},
+           giveni={C\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{911fd7007720dc3b13eba3abf32a3177}
+      \strng{fullhash}{d4a4d924da40befc8ccbcc1bf77d1fdf}
+      \strng{bibnamehash}{d4a4d924da40befc8ccbcc1bf77d1fdf}
+      \strng{authorbibnamehash}{d4a4d924da40befc8ccbcc1bf77d1fdf}
+      \strng{authornamehash}{911fd7007720dc3b13eba3abf32a3177}
+      \strng{authorfullhash}{d4a4d924da40befc8ccbcc1bf77d1fdf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Methods}
+      \field{title}{De novo construction of T cell compartment in humanized mice engrafted with iPSC-derived thymus organoids}
+      \field{volume}{19}
+      \field{year}{2022}
+      \verb{doi}
+      \verb https://doi.org/10.1038/s41592-022-01583-3
+      \endverb
+      \keyw{Thymus}
+    \endentry
+    \entry{Campinoti}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dfb60831dddb04196f25c2c2be38c475}{%
+           family={Campinoti},
+           familyi={C\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9901c48e6cec3bb7bf741dab0c258d45}{%
+           family={Gjinovci},
+           familyi={G\bibinitperiod},
+           given={Asllan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{63cd88d78a3892d02d51caadbc8f9fa5}
+      \strng{fullhash}{603aebab9801f600a9a86a1581d6d6dc}
+      \strng{bibnamehash}{603aebab9801f600a9a86a1581d6d6dc}
+      \strng{authorbibnamehash}{603aebab9801f600a9a86a1581d6d6dc}
+      \strng{authornamehash}{63cd88d78a3892d02d51caadbc8f9fa5}
+      \strng{authorfullhash}{603aebab9801f600a9a86a1581d6d6dc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{Reconstitution of a functional human thymus by postnatal stromal progenitor cells and natural whole-organ scaffolds}
+      \field{volume}{11}
+      \field{year}{2020}
+      \verb{doi}
+      \verb https://doi.org/10.1038/s41467-020-20082-7
+      \endverb
+      \keyw{Thymus}
+    \endentry
+    \entry{Seet}{article}{}
+      \name{author}{3}{}{%
+        {{hash=55317b9cf94f109e4ea23ff684c49fc9}{%
+           family={Seet},
+           familyi={S\bibinitperiod},
+           given={Christopher\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=10b262cadfbb8ebe2b3d1267a9280d36}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Chongbin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d082f648200b8e3970a2043d2bb6832}
+      \strng{fullhash}{f9507b800fe71ad88ca2c6606702060d}
+      \strng{bibnamehash}{f9507b800fe71ad88ca2c6606702060d}
+      \strng{authorbibnamehash}{f9507b800fe71ad88ca2c6606702060d}
+      \strng{authornamehash}{6d082f648200b8e3970a2043d2bb6832}
+      \strng{authorfullhash}{f9507b800fe71ad88ca2c6606702060d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Methods}
+      \field{title}{Generation of mature T cells from human hematopoietic stem and progenitor cells in artificial thymic organoids}
+      \field{volume}{14}
+      \field{year}{2017}
+      \verb{doi}
+      \verb https://doi.org/10.1038/nmeth.4237
+      \endverb
+      \keyw{Thymus}
+    \endentry
+    \entry{Liang}{article}{}
+      \name{author}{3}{}{%
+        {{hash=80cd8f699aec5bb8b30e0432fc9150c4}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Yaxuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c34450de731e74833c16d089b6bbc943}{%
+           family={Lehrich},
+           familyi={L\bibinitperiod},
+           given={Brandon\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{119f0cad5d7dbc44d3e2c0d59f293721}
+      \strng{fullhash}{9c022d03a7487de7f9ceeea5be0d2c81}
+      \strng{bibnamehash}{9c022d03a7487de7f9ceeea5be0d2c81}
+      \strng{authorbibnamehash}{9c022d03a7487de7f9ceeea5be0d2c81}
+      \strng{authornamehash}{119f0cad5d7dbc44d3e2c0d59f293721}
+      \strng{authorfullhash}{9c022d03a7487de7f9ceeea5be0d2c81}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Extracellular Vesicles}
+      \field{number}{7}
+      \field{title}{Emerging methods in biomarker identification for extracellular vesicle-based liquid biopsy}
+      \field{volume}{10}
+      \field{year}{2021}
+      \verb{doi}
+      \verb https://doi.org/10.1002/jev2.12090
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jev2.12090
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jev2.12090
+      \endverb
+      \keyw{ev}
+    \endentry
+    \entry{placido2023}{article}{}
+      \name{author}{25}{}{%
+        {{hash=74eda270521f215e8f28fbc2c2ee01ae}{%
+           family={Placido},
+           familyi={P\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1ce4eb84b8441cb4f47e328910e194f7}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=934ef4ac80db3dc28946c2e680bdb988}{%
+           family={Hjaltelin},
+           familyi={H\bibinitperiod},
+           given={Jessica\bibnamedelima X.},
+           giveni={J\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=b161608a8192f8c9fcdd5ac85c1e9ef6}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Chunlei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=80c5ef39f84b9bdd01a8fe5d39d2a644}{%
+           family={Haue},
+           familyi={H\bibinitperiod},
+           given={Amalie\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=751e886ebe46a31c13021f25f910e9f9}{%
+           family={Chmura},
+           familyi={C\bibinitperiod},
+           given={Piotr\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c3208b24c818789dec526a2cd4ad610e}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2ceb2b63efb1530093daefb640b4146b}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jihye},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bd4942f7d79b2f4ed3d0efea4fe2c071}{%
+           family={Umeton},
+           familyi={U\bibinitperiod},
+           given={Renato},
+           giveni={R\bibinitperiod}}}%
+        {{hash=106a8712de1b9d1d0cb47c0d1d9fff6b}{%
+           family={Antell},
+           familyi={A\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2cc76b44640e57d55f23022936408080}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=520b9062e89c237dd62b39e39ad04928}{%
+           family={Franz},
+           familyi={F\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b98286ae222fa3783430d2726249c092}{%
+           family={Brais},
+           familyi={B\bibinitperiod},
+           given={Lauren},
+           giveni={L\bibinitperiod}}}%
+        {{hash=fbfc54b394f2d68239d5b612fcbb4869}{%
+           family={Andrews},
+           familyi={A\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ddc4fd4e6fe0ba356b30484c4db1caa2}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={Debora\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f08f6961a7cb7d9674fb102073c60ca3}{%
+           family={Regev},
+           familyi={R\bibinitperiod},
+           given={Aviv},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1429423e87f47f3087e47f551779ff6c}{%
+           family={Ayandeh},
+           familyi={A\bibinitperiod},
+           given={Siamack},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b1dc77c5bcf32c24362f58e48a52448f}{%
+           family={Brophy},
+           familyi={B\bibinitperiod},
+           given={Mary\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=ca7a3683ad4e359f768e2617ce4869c4}{%
+           family={Do},
+           familyi={D\bibinitperiod},
+           given={Nhan\bibnamedelima V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=b39762ab0d4a26714399db196510003f}{%
+           family={Kraft},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a4d1ebe78835bb9dea8da4c72fa1dbe2}{%
+           family={Wolpin},
+           familyi={W\bibinitperiod},
+           given={Brian\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=376b66e0843b4769fe2904d67aff530b}{%
+           family={Rosenthal},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7e80b56df651456b8571143a2b9e5425}{%
+           family={Fillmore},
+           familyi={F\bibinitperiod},
+           given={Nathanael\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e729950652828b4825b4dd681158bbdd}{%
+           family={Brunak},
+           familyi={B\bibinitperiod},
+           given={Søren},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f99a580afe584be129acd1f9193dc0cd}{%
+           family={Sander},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c0d58e9c88ab289c772278a231c549d}
+      \strng{fullhash}{3d689a841f15efae78ba2468310bbb4c}
+      \strng{bibnamehash}{6c0d58e9c88ab289c772278a231c549d}
+      \strng{authorbibnamehash}{6c0d58e9c88ab289c772278a231c549d}
+      \strng{authornamehash}{6c0d58e9c88ab289c772278a231c549d}
+      \strng{authorfullhash}{3d689a841f15efae78ba2468310bbb4c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1546-170X}
+      \field{journaltitle}{Nature Medicine}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{A deep learning algorithm to predict risk of pancreatic cancer from disease trajectories}
+      \field{volume}{29}
+      \field{year}{2023}
+      \field{pages}{1113\bibrangedash 1122}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/s41591-023-02332-5
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41591-023-02332-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41591-023-02332-5
+      \endverb
+    \endentry
+    \entry{Yang}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ec072e02a40e0924f9f377dd8e05a5d5}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Kisuk},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a77e3f3656bafe012bfecb17493cf22a}{%
+           family={O’Cearbhaill},
+           familyi={O\bibinitperiod},
+           given={Eoin\bibnamedelima D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6a18b6f9bb671a34e2e953f7568615a}
+      \strng{fullhash}{9679ec9839dec7398ce5fc1833775e06}
+      \strng{bibnamehash}{9679ec9839dec7398ce5fc1833775e06}
+      \strng{authorbibnamehash}{9679ec9839dec7398ce5fc1833775e06}
+      \strng{authornamehash}{a6a18b6f9bb671a34e2e953f7568615a}
+      \strng{authorfullhash}{9679ec9839dec7398ce5fc1833775e06}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{37}
+      \field{title}{A therapeutic convection–enhanced macroencapsulation device for enhancing β cell viability and insulin secretion}
+      \field{volume}{118}
+      \field{year}{2021}
+      \verb{doi}
+      \verb https://doi.org/10.1073/pnas.2101258118
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1073/pnas.2101258118
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1073/pnas.2101258118
+      \endverb
+      \keyw{encap}
+    \endentry
+    \entry{Wang}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b8a0a9f9b3d2399a388e41eabdaf8c69}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yiru},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2dde4977063edb61961e743b407fefea}{%
+           family={Louwagie},
+           familyi={L\bibinitperiod},
+           given={Erin},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f19f44caee47373daa637a45f7ba786e}{%
+           family={Larkin},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2eaa86ec5225ed25dc046e26905ce6a8}{%
+           family={Sankey},
+           familyi={S\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=54a09dde88da1b5d76e3f2e673276cc4}{%
+           family={Boulware},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5e56ec5b90db18eb29e5b37eb68aabbf}{%
+           family={Bischof},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{d723ebd9357cfba42d833cb6688335ab}
+      \strng{fullhash}{2533175ac2486dfe30a170f20ff918b4}
+      \strng{bibnamehash}{2533175ac2486dfe30a170f20ff918b4}
+      \strng{authorbibnamehash}{2533175ac2486dfe30a170f20ff918b4}
+      \strng{authornamehash}{d723ebd9357cfba42d833cb6688335ab}
+      \strng{authorfullhash}{2533175ac2486dfe30a170f20ff918b4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Anal. Methods}
+      \field{title}{Improved detection of group A Streptococcus during thermal contrast amplification vs. visual reading of clinical rapid diagnostic tests}
+      \field{volume}{11}
+      \field{year}{2019}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1039/C8AY02125B
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/C8AY02125B
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/C8AY02125B
+      \endverb
+    \endentry
+    \entry{Liu}{article}{}
+      \name{author}{8}{}{%
+        {{hash=5868f21241a1987f83210b0195d0e4ba}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yilin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0be4c6923bd567ecdd175165245aed4b}{%
+           family={Zhan},
+           familyi={Z\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0d73725a4e533791b7367c9c8b54eaed}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Jesse\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=ab6903adc6dccef301004ded6c5a93ed}{%
+           family={Baro},
+           familyi={B\bibinitperiod},
+           given={Bàrbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=91bdcfee90e9a70d92d1d4a259cb45b0}{%
+           family={Alemany},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=00156572844601e38766e3b55fc5537d}{%
+           family={Sackrison},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d010117e20ce15fbd8e076ab15ad9f78}{%
+           family={Mitjà},
+           familyi={M\bibinitperiod},
+           given={Oriol},
+           giveni={O\bibinitperiod}}}%
+        {{hash=5e56ec5b90db18eb29e5b37eb68aabbf}{%
+           family={Bischof},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{08c6777349e639156dfb5e8ccbedc532}
+      \strng{fullhash}{0f8ffd3e4d268071719b49b61535b579}
+      \strng{bibnamehash}{0f8ffd3e4d268071719b49b61535b579}
+      \strng{authorbibnamehash}{0f8ffd3e4d268071719b49b61535b579}
+      \strng{authornamehash}{08c6777349e639156dfb5e8ccbedc532}
+      \strng{authorfullhash}{0f8ffd3e4d268071719b49b61535b579}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS Applied Nano Materials}
+      \field{number}{12}
+      \field{title}{fM–aM Detection of the SARS-CoV-2 Antigen by Advanced Lateral Flow Immunoassay Based on Gold Nanospheres}
+      \field{volume}{4}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1021/acsanm.1c03217
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1021/acsanm.1c03217
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acsanm.1c03217
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acsanm.1c03217
+      \endverb
+    \endentry
+    \entry{Khosla}{article}{}
+      \name{author}{7}{}{%
+        {{hash=34157d3da8d1d33b4291bd068ad3c89b}{%
+           family={Khosla},
+           familyi={K\bibinitperiod},
+           given={Kanav},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3ee61af441b179cc9af186b5b2fc0ebf}{%
+           family={Kangas},
+           familyi={K\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5868f21241a1987f83210b0195d0e4ba}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yilin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0be4c6923bd567ecdd175165245aed4b}{%
+           family={Zhan},
+           familyi={Z\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c5ef04140e1134718b9f2f106f470ab4}{%
+           family={Daly},
+           familyi={D\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d39c53e4f16699ada3941ebc091e7c38}{%
+           family={Hagedorn},
+           familyi={H\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8eeeeeb18501a49bd5c97ea792c0a48f}{%
+           family={Bischof},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cee85152f7b4b66c3502d7ec438a460}
+      \strng{fullhash}{971b7a3c11cac76fd0c69d182de20603}
+      \strng{bibnamehash}{971b7a3c11cac76fd0c69d182de20603}
+      \strng{authorbibnamehash}{971b7a3c11cac76fd0c69d182de20603}
+      \strng{authornamehash}{5cee85152f7b4b66c3502d7ec438a460}
+      \strng{authorfullhash}{971b7a3c11cac76fd0c69d182de20603}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract This study shows for the first time the ability to rewarm cryopreserved zebrafish embryos that grow into adult fish capable of breeding normally. The protocol employs a single injection of cryoprotective agents (CPAs) and gold nanorods (GNRs) into the yolk and immersion in a precooling bath to dehydrate the perivitelline space. Then embryos are encapsulated within CPA and GNR droplets, plunged into liquid nitrogen, cryogenically stabilized, and rewarmed by a laser pulse. Postlaser nanowarming, embryos (n = 282) exhibit intact structure by 1 h (40\%), continued development after 3 h (22\%), movement after 24 h (11\%), hatching after 48 h (9\%), and swimming after Day 5 (3\%). Finally, from fish that survives till Day 5, two larvae are grown to adulthood and spawned, yielding survival comparable to an unfrozen control. Future efforts will focus on improving the survival to adulthood and developing methods to cryopreserve large numbers of embryos for research, aquaculture, and biodiversity preservation.}
+      \field{journaltitle}{Advanced Biosystems}
+      \field{number}{11}
+      \field{title}{Cryopreservation and Laser Nanowarming of Zebrafish Embryos Followed by Hatching and Spawning}
+      \field{volume}{4}
+      \field{year}{2020}
+      \verb{doi}
+      \verb https://doi.org/10.1002/adbi.202000138
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/adbi.202000138
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/adbi.202000138
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/adbi.202000138
+      \endverb
+      \keyw{gold nanoparticles,photothermal heating,vitrification,zebrafish}
+    \endentry
+    \entry{higaki}{article}{}
+      \name{author}{8}{}{%
+        {{hash=1f62ee8e87b1783755aeb3b5107e16fa}{%
+           family={Higaki},
+           familyi={H\bibinitperiod},
+           given={Shogo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ce801dc6f23528eaf70af0e3eda5e240}{%
+           family={Kawakami},
+           familyi={K\bibinitperiod},
+           given={Yutaka},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=db25cad1bc4426e699ac366e9ddd7616}{%
+           family={Eto},
+           familyi={E\bibinitperiod},
+           given={Yoshiki},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=959a6c6019bea38bb2df4d4d790f623e}{%
+           family={Yamaha},
+           familyi={Y\bibinitperiod},
+           given={Etsuro},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b23296162407bdde38c373ca4e66b8e7}{%
+           family={Nagano},
+           familyi={N\bibinitperiod},
+           given={Masashi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=92500bc719ad0c3825605a81535745ad}{%
+           family={Katagiri},
+           familyi={K\bibinitperiod},
+           given={Seiji},
+           giveni={S\bibinitperiod}}}%
+        {{hash=00d70c639f3860bb0a43ee7935752292}{%
+           family={Takada},
+           familyi={T\bibinitperiod},
+           given={Tatsuyuki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b34f887be14ef644e22436dd12d784a6}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Yoshiyuki},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{0aa265c60f9f30e39e9247595cf19966}
+      \strng{fullhash}{a2873827f4a4df3392aeafa23376f1da}
+      \strng{bibnamehash}{a2873827f4a4df3392aeafa23376f1da}
+      \strng{authorbibnamehash}{a2873827f4a4df3392aeafa23376f1da}
+      \strng{authornamehash}{0aa265c60f9f30e39e9247595cf19966}
+      \strng{authorfullhash}{a2873827f4a4df3392aeafa23376f1da}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0011-2240}
+      \field{journaltitle}{Cryobiology}
+      \field{number}{3}
+      \field{title}{Cryopreservation of zebrafish (Danio rerio) primordial germ cells by vitrification of yolk-intact and yolk-depleted embryos using various cryoprotectant solutions}
+      \field{volume}{67}
+      \field{year}{2013}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cryobiol.2013.10.006
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0011224013003933
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0011224013003933
+      \endverb
+      \keyw{Cryopreservation,Embryo,Primordial germ cell,Vitrification,Zebrafish}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
