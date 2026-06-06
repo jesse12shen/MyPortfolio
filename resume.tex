@@ -97,7 +97,8 @@
 }
 
 \newcommand{\resumeJob}[5]{
-\vspace{0.5mm}\item[]
+% \vspace{0.5mm}
+\item[]
     \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
         \textbf{#1} & {\footnotesize{#2}} \\
         \footnotesize{{#3}} & \footnotesize{#4}\\
@@ -113,14 +114,15 @@
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\bullet$}
-\renewcommand{\labelitemiii}{$\circ$}
+% \renewcommand{\labelitemiii}{$\circ$}
 %\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
 \newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
 \newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
 
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+% \newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-2mm}}
 \newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
 % \newcommand{\cvsection}[1]{%
@@ -143,18 +145,23 @@
 %\newcommand{\course}{Your Program} % Your Program
 %\newcommand{\roll}{xxxxxxx} % Your Roll No.
 \newcommand{\phone}{503-956-0562} % Your Phone Number
+%emaila used in portfolio
 
 % \begin{document}
 \fontfamily{cmr}\selectfont
 \setmainfont{Times New Roman}
-\fontsize{11}{13}\selectfont
 %----------HEADING-----------------
 
 \begin{center}
 			{\Large \scshape {\Large \name}}\\ 
-			\href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}} \ \smallskip {{\footnotesize \faPhone}\ \phone} \ \smallskip
-			\href{https://www.linkedin.com/in/jesse-shen-78abba175/}{\footnotesize \faLinkedin}\ \smallskip \href{https://github.com/jesse12shen}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {Jesse12Shen}}
-		\end{center}
+			\href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}} \
+            % \smallskip {{\footnotesize \faPhone}\ \phone} \ \smallskip
+			% \href{https://www.linkedin.com/in/jesse-shen-78abba175/}{\footnotesize \faLinkedin}\ \smallskip
+		 \href{https://github.com/jesse12shen}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {Jesse12Shen}}\\
+         % {Mountain View, CA}
+   % \textbf{Summary:} 
+   % I am a biomedical engineer with an academic background seeking positions at the intersection between AI and healthcare. 
+\end{center}
 
 %\parbox{2.35cm}{%
 %\includegraphics[width=2.35cm,clip]{Mnit_logo_bw.png}}
@@ -173,221 +180,151 @@
 % }
 
 %-----------EDUCATION-----------
+
+    
+    \section*{\textbf{Experience}}
+\resumeSubHeadingListStart
+    \resumeJob {Intuit}{2026}{Contract Software Engineer}{Mountain View, CA}{Fintech Event Bus Migration Effort}
+     \resumeItemListStart
+    \item {Migrated tens of applications to new Kafka topic clusters using a 7-step workflow, maintaining near-zero downtime across distributed fintech systems.}
+    \item {Designed and evaluated an AI agent to automate portions of workflow and increase developer throughput by 120\%}
+    \item {This AI agent, after team contributions, employed up to 9 MCPs to access API's and data across Intuit with varying configurations and development status, and improved developer throughput by 150\%}
+    \item {Tools \& technologies used: Kafka, Spark, Beam, Maven, Kubernetes, AWS, Docker, Linux, Claude Code, Numaflow, Java, Python}
+    \resumeItemListEnd
+    \resumeJob {Revature}{2025}{Java Intern}{Remote}{Spring Social media blog API}
+      \resumeItemListStart
+      \item \textcolor{blue}{{\url{https://github.com/jesse12shen/jesse12shen-pep-spring-project}}} 
+    \item{Implemented all user stories, i.e. requested features using Spring Boot and an MVC design pattern}
+    \item {Tools \& technologies used: Spring Boot, SQL, JaCoCo, JUnit, REST APIs, Agile methodology}
+    % \vspace{-2 mm}
+    \resumeItemListEnd
+
+        % \item{Ran flow cytometry to characterize clonogenic thymic epithelial cells adhered to feeder cells}
+
+    % \vspace{1.0mm}
+      % \vspace{-2.0mm}
+
+
+    % \item{Performed antibody conjugation for use in lab-based lateral flow assays involving  UV-VIS, DLS, and PAGE.}
+    % \item{Reduced MATLAB computation time by 50\% through modular refactoring}
+    % \item{Assembled lateral flow assays with lateral flow reagent dispenser.}
+    % \resumeItemListStart
+    \resumeJob {Carnegie Mellon University Department of Biomedical Engineering}{2022 - 2023}{Graduate Student Researcher}{Pittsburgh, PA}
+      {Thymus-on-a-chip}
+  % {Extracellular Vesicle (EV)-based Cancer Diagnostics}
+  \resumeItemListStart
+  %     \item {Led integration of next-generation sequencing into a cancer methylation diagnostic workflow, using ddPCR and qPCR to validate signal across a multi-modal genomics pipeline}\\
+  %     \resumeItemListEnd
+  %     \vspace{-4.0mm}
+  % \subproject{Thymus-on-a-chip}
+  %     \vspace{-2.0mm}
+      % \resumeItemListStart
+    % \item {Developed PDMS organ-on-a-chip design as part of an in vitro microfluidic thymus device in a collaborative project with immunologists.}
+    \item{Designed organ-on-a-chip device in collaboration with immunologists, gaining direct experience translating between engineering constraints and domain-expert scientific requirements}
+    \resumeItemListEnd
+        \resumeJob
+      {University of Minnesota- Department of Mechanical Engineering}{2020 - 2022}{Research Technician}{Minneapolis, MN}{Thermal contrast amplification for use in lateral flow assays / VigilantDx Startup}
+      %\vspace{-2.0mm}
+      \resumeItemListStart
+     \item{Performed quantitative signal detection and noise characterization across sample runs to establish femtomolar detection thresholds for COVID antigen assay.}
+    \item{Developed and proposed antibody conjugation verification assay, independently scoping and validating a novel measurement methodology}
+    % \item {Performed validation tests for prototype diagnostic medical device.}
+    \item {Served as lead author in VigilantDx LFA reader v1.0.16 user manual and produced promotional material including shareholder videos.}
+    \item{Published in ACS Applied Nano Materials, 2021}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
 \vspace{-5.5mm}
+\section*{\textbf{Projects}}
+% \resumeSubHeadingListStart
+    % \resumeItemListStart
+    % \resumeJob {Revature Bootcamp Capstone Project}{January 2025 - Present}{\textbf{Spring Social media blog API}}{}{{\normalfont\textcolor{blue}{\url{https://github.com/jesse12shen/jesse12shen-pep-spring-project}}}}
+    
+    % \item{Tools \& technologies used: Spring Boot, Spring Data, Spring Framework, Java, Javalin, JDBC, SQL, RESTful APIs, Agile Scrum}
+    % \item {A social media application with an api backend without a frontend. Can manage user accounts and messages that they submit to the application, users will be able to see all of the messages posted to the site as well as the messages posted by a particular user, as well as process actions like logins, registrations, message creations, message updates, and message deletions.}
+    % \item{Implemented all user stories, i.e. requested features using Spring Boot and an MVC design pattern}
+    %     \resumeItemListEnd
+% \vspace{-2.0mm}
+    \resumeItemListStart
+        \resumeJob
+          {Carnegie Mellon University: \textit{Introduction to Deep Learning 11-785}}{2024}{{\normalfont\textcolor{blue}{{\url{https://github.com/rohanchawla23/11785Project}}}}}{}{}
+                \vspace{-2.0mm}
+      % \resumeItemListStart
+      \item {Compared a selective structured state space model(Mamba) to a transformer baseline for cancer diagnostics with EHR/ICD-10-CM data as part of a 4-person team. I ran the baseline control locally and wrote the literature review.}
+      % \item{Implemented a Transformer using patient EHR, ICD-10-CM data}
+      % \item{Wrote a proposal for a transformer model for early cancer detection based on previous literature.}
+      \item{Conducted literature review on prior AI cancer diagnostic approaches to inform architecture decisions and situate results within the broader research landscape}
+      \item{Performed ablation studies on CNNs and LSTMs using remote GCP/AWS Linux instances, developing intuition for model tradeoffs relevant to clinical data}
+    \item{Tools \& technologies used: Pytorch, WandB, Kaggle, NLP, GCP, AWS, OpenAI, Pandas, matplotlib, Jupyter, Python}
+      \vspace{-2 mm}
+      \resumeItemListEnd
+    \resumeItemListStart
+    \resumeJob{Restaurant Tag Search}{2023}{\normalfont\textcolor{blue}{\url{https://github.com/jesse12shen/Restaurant_tag_search.git}}}{}{}
+      % {} %Project Name, Location Name
+       %Event Dates
+       \vspace{-2 mm}
+        \item {I wanted to look at clustering restaurant reviews based on mentions of certain words after working on a logistic regression involving restaurant reviews.}
+        \item {Tools \& technologies used: Python, Pandas, NLP (GLoVE embedding)}
+    \resumeItemListEnd
+    % \resumeSubHeadingListEnd
+    %     \resumeItemListStart
+    % \resumeJob{Restaurant Tag Search}{2023}{Based off \textit{Introduction to Machine Learning} assignment}{ }{\normalfont\textcolor{blue}{\url{https://github.com/jesse12shen/Restaurant_tag_search.git}}}
+
+    % \section{\textbf{Other Experience}}
+        % \resumeItemListStart
+      
 \section*{\textbf{Education}}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Carnegie Mellon University}{GPA: 3.63/4.00}
       {Master of Science in Biomedical Engineering}{2024}
-      % {July 2022 - August 2023}
-                   \item{\textbf{Relevant Coursework}\footnotesize{: Introduction to Deep Learning, Introduction to Machine Learning, Neural Computation, Immunology, Medical Device Innovation and Realization, Biomaterial Host Interactions in Regenerative Medicine, Advanced Physiology, Micro/Nano Biomedical Devices}}
-                   \vspace{-2.0mm}
+                   % \item{\textbf{Relevant Coursework}\footnotesize{: Introduction to Deep Learning, Introduction to Machine Learning, Neural Computation, Immunology, Medical Device Innovation and Realization, Biomaterial Host Interactions in Regenerative Medicine, Advanced Physiology}}
     \resumeSubheading
       {Washington University in St. Louis }{GPA: 3.65/4.00}
       {Bachelor of Science in Biomedical Engineering}{2020}
-      % {August 2016 - May 2020}
-             \item{\textbf{Relevant Coursework}\footnotesize{: Biomaterials Science, Biomacromolecule Engineering, Quantitative Physiology, Molecular and Cellular Engineering, Probability and Statistics for Engineers, Organic Chemistry, Transport Phenomena in Biomedical Engineering, Bioengineering Thermodynamics}}
+             % \item{\textbf{Relevant Coursework}\footnotesize{: Biomaterials Science, Biomacromolecule Engineering, Quantitative Physiology,  Molecular and Cellular Engineering, Organic Chemistry}}
   \resumeSubHeadingListEnd
 
-\vspace{-7mm}
+% \vspace{-7mm}
 %
 
-
-% \section{\textbf{Personal Projects}}
-% % \resumeSubHeadingListStart
-
-%     \resumeJob{Restaurant Tag Search}{2023}{Based off \textit{Introduction to Machine Learning} assignment}{ }{\normalfont\textcolor{blue}{\url{https://github.com/jesse12shen/Restaurant_tag_search.git}}}
-      % {} %Project Name, Location Name
-       %Event Dates
-
-    %   \resumeItemListStart
-    %     \item {Tools \& technologies used: Python, Pandas, NLP (GLoVE embedding)}
-    %     \item {I wanted to look at clustering restaurant reviews based on mentions of certain words after working on a logistic regression involving restaurant reviews. Worked around academic policy by pre-training model and only uploading weights, but code is available upon request.}
-    % \resumeItemListEnd
-    % \vspace{-2mm}
-    %  \section{\textbf{Academic projects}}
-    % \resumeSubHeadingListStart
-    %     \resumeJob
-    %       {Carnegie Mellon University: \textit{Introduction to Deep Learning 11-785}}{January 2024 - Present}{Pittsburgh, PA}{}{Model for early pancreatic cancer detection}
-    %             \vspace{-2.0mm}
-    %   \resumeItemListStart
-    %   \item{Implemented a transformer using patient EHR from the MIMIC-IV dataset}
-    %   \item{Wrote a proposal for a transformer model for early cancer detection based on previous literature.}
-    %   \item{Performed a literature review on previous work in AI cancer diagnostics}
-    %   \item{Used Pytorch to perform ablations for class assignments with CNNs, LSTMs}
-    % %   \item{Used GCP for high-performance cloud computing and was introduced to AWS}
-    %   \resumeItemListEnd
-    %   \resumeSubHeadingListEnd
-    %   \vspace{-5.0mm}
-%-----------EXPERIENCE-----------------
-\section*{\textbf{Experience}}
-  \resumeSubHeadingListStart
-  \resumeJob {Carnegie Mellon University Department of Biomedical Engineering}{July 2022 - January 2023}{Graduate Student Researcher}{Pittsburgh, PA}{Extracellular Vesicle (EV)-based Cancer Diagnostics}
-
-    % \item[$\circ$]{Ran flow cytometry to characterize clonogenic thymic epithelial cells adhered to feeder cells}
-    % \resumeItemListEnd
-    %\vspace{-2.0mm}
-    % \subproject{Extracellular Vesicle (EV)-based Cancer Diagnostics}
-    \vspace{-2.0mm}
-    \resumeItemListStart
-    \item {Cultured non-adherent SY5Y neuroblastoma cells and ran qPCR and ddPCR to lead integration of next-generation sequencing into diagnostic workflow.}
-    % \resumeItemListEnd
-    \item {Isolated PBMCs using density gradient medium for later studies.}
-    \resumeItemListEnd
-    \vspace{-2.0mm}
-      \subproject{Thymus-on-a-chip}
-      \vspace{-1.0mm}
-      \resumeItemListStart
-    \item {Developed PDMS organ-on-a-chip design as part of an in vitro microfluidic thymus device in a collaborative project with immunologists.}
-    \item{Ran flow cytometry to characterize clonogenic thymic epithelial cells adhered to feeder cells}
-    % \resumeItemListEnd
-    \item {Worked with humanized thymic mouse model}
-    \resumeItemListEnd
-    %\end{justify}
-    % \vspace{2.0mm}
-  % \resumeJob
-  %     {Washington University Department of Biomedical Engineering}{January 2019 - March 2020}{Research Assistant}{St. Louis, MO}{Protein-conjugated nanovaccine for drug addiction.}
-      \vspace{-3.0mm}
-    %   \resumeItemListStart
-    % \item {\textbf{“Optimization of a nicotine ELISA protocol for use in a vaccine for nicotine addiction”}\\Received an institutional research fellowship for an ELISA protocol for nicotine-antibody detection, presented at Washington University in St. Louis Fall Undergraduate Research Symposium on 11/2/19.}
-    %   \resumeItemListEnd
-
-    \resumeJob
-      {University of Minnesota- Department of Mechanical Engineering}{October 2020 -May 2022}{Research Technician}{Minneapolis, MN}{Thermal contrast amplification for use in lateral flow assays / VigilantDx Startup}
-      %\vspace{-2.0mm}
-      \resumeItemListStart
-    \item {\textbf{fM–aM Detection of the SARS-CoV-2 Antigen by Advanced Lateral Flow Immunoassay Based on Gold Nanospheres.} Yilin Liu, Li Zhan, Jesse W. Shen, Bàrbara Baro, Andrea Alemany, James Sackrison, Oriol Mitjà, and John C. Bischof. \textit{ACS Applied Nano Materials} 2021 4 (12), 13826-13837 DOI:\textcolor{blue}{\href{https://doi.org/10.1021/acsanm.1c03217}{10.1021/acsanm.1c03217}} \\Developed assay to verify higher antibody effectiveness between conjugation methods using a cleavable fluorophore-antigen conjugate.}
-    \item{Performed antibody conjugation for use in lab-based lateral flow assays involving  UV-VIS, DLS, and PAGE.}
-    \item{Reduced computation times by 50\% in Matlab by adding modularity.}
-    % \item{Assembled lateral flow assays with lateral flow reagent dispenser.}
-    % \item{Performed laser spot calculations and routine power adjustments as part of device maintenance.}
-    % \item{Ran blood-based assays for malaria experiments}
-    \item {Served as lead author in VigilantDx LFA reader v1.0.16 user manual and produced promotional material.}
-    \item {Performed and developed validation tests for prototype diagnostic device.}
-    \resumeItemListEnd
-    %\vspace{-2.0mm}
-    % \subproject{Organ cryopreservation}
-     % \vspace{-3.0mm}
-    % \resumeItemListStart
-    % \item {Assisted in the preparation of critical reagents for use in cryopreserving organs such as hearts, kidneys, and livers. These reagents included various cocktails to form highly osmotic, cryoprotective agents that protected organs from ice formation and silica-coated iron oxide nanoparticles that allowed for uniform heating of organs from vitrification.}
-    % \resumeItemListEnd
-    % \subproject{Aquatic species cryopreservation}
-    % \resumeItemListStart
-    % \item{Adapted a proof-of-concept protocol for the extraction and cryopreservation of primordial germ cells in zebrafish embryos. }
-    % \item{Microinjected zebrafish embryos under a microscope and developed a yolk extraction and embryo digestion protocol based on standard microinjection stage}
-    % \item {Developed a protocol to capture egg shrinkage and swelling for artemia cysts, using R for analysis}
-    % \resumeItemListEnd
-    % \vspace{-1.0mm}
-    % % \section{\textbf{Academic Research Experience}}
-    %   \resumeJob
-    %   {Washington University Department of Biomedical Engineering}{January 2019 - March 2020}{Research Assistant}{St. Louis, MO}{Protein-conjugated nanovaccine for drug addiction.}
-    %   \vspace{-1.0mm}
-    %   \resumeItemListStart
-    % \item {\textbf{“Optimization of a nicotine ELISA protocol for use in a vaccine for nicotine addiction”}\\Received an institutional research fellowship for an ELISA protocol for nicotine-antibody detection, presented at Washington University in St. Louis Fall Undergraduate Research Symposium on 11/2/19.}
-    %   \resumeItemListEnd
-  \resumeSubHeadingListEnd
-% \vspace{-4mm}
-\vspace{-8mm}
-  \section{\textbf{Academic projects}}
-    \resumeSubHeadingListStart
-        \resumeJob
-          {Carnegie Mellon University: \textit{Introduction to Deep Learning 11-785}}{January 2024 - May 2024}{Pittsburgh, PA}{}{\textbf{Model for early pancreatic cancer detection}}{{\normalfont\textcolor{blue}{\url{https://github.com/rohanchawla23/11785Project}}}}
-                % \vspace{-2.0mm}
-      \resumeItemListStart
-        % \item{Tools \& technologies used: Pytorch, Sci-kit learn, WandB, Kaggle, APIs, GCP, AWS, Linux, OpenAI, Pandas, matplotlib, Python}
-        %%% Adding this puts the resume past the 1-page mark
-      \item{Implemented a Transformer using patient EHR, ICD-10-CM data}
-      % \item{Wrote a proposal for a transformer model for early cancer detection based on previous literature.}
-      \item{Performed a literature review on previous work in AI cancer diagnostics}
-      \item{Used Pytorch to perform ablations for class assignments with CNNs, LSTMs on remote Linux instances of GCP/AWS.}
-      \resumeItemListEnd
-  %     \vspace{-2.0mm}
-
-    % \vspace{-4.0mm}    
+                
   % \resumeSubHeadingListStart
-    % \resumeJob
-    %       {Carnegie Mellon University: \textit{Medical Device Innovation and Realization}}{January 2023 - May 2023}{Group Technical Lead}{Pittsburgh, PA}{Cell encapsulation for Type-1 diabetes therapy}
-  %               \vspace{-2.0mm}
+  %   \resumeJob
+  %         {Carnegie Mellon University: \textit{Medical Device Innovation and Realization}}{January 2023 - May 2023}{Group Technical Lead}{Pittsburgh, PA}{Cell encapsulation for Type-1 diabetes therapy}
+                % \vspace{-4.0mm}
   %     \resumeItemListStart
   %     \item{Used Solidworks to design a 3D printed model of our cell encapsulation device involving Cura and FDM}
   %     \item{Performed diffusion simulations in COMSOL}
   %     \resumeItemListEnd
-  % % \resumeSubHeadingListStart
-    % \resumeJob{Washington University in St. Louis: \textit{BME543: Molecular and Cellular Engineering}}{January 2020 - April 2020}{Researcher of 3}{St. Louis, MO}{ CRISPR-based gene therapy}
+  %   \resumeSubHeadingListEnd
+      % \vspace{-2.0mm}
+
+
+    % \resumeSubHeadingListEnd
+    
     % \resumeItemListStart
-   
-    % \item{Proposed a lentiviral vector for delivery of a Cas9 pCMV\_ABEmax\_P2A\_GFP nuclease as a gene therapy for Marfan syndrome as part of a group project.}
+    % \resumeJob{Restaurant Tag Search}{2023}{Based off \textit{Introduction to Machine Learning} assignment}{ }{\normalfont\textcolor{blue}{\url{https://github.com/jesse12shen/Restaurant_tag_search.git}}}
+    %   % {} %Project Name, Location Name
+    %    %Event Dates
+      
+    %     \item {Tools \& technologies used: Python, Pandas, NLP (GLoVE embedding)}
+    %     \item {I wanted to look at clustering restaurant reviews based on mentions of certain words after working on a logistic regression involving restaurant reviews. Worked around academic policy by pre-training model and only uploading weights, but code is available upon request.}
     % \resumeItemListEnd
-    \resumeSubHeadingListEnd
+    % \vspace{-4mm}
+\vspace{-3mm}
+
 
 %-----------Technical skills-----------------
 \section*{\textbf{Technical Skills}}
  \begin{itemize}[leftmargin=0.05in, label={}]
-    \small{\item{\textbf{Academic Research}{: Good Laboratory Practice $\cdot$ immunoassays $\cdot$ ELISA $\cdot$ flow cytometry $\cdot$ PCR $\cdot$ microfabrication $\cdot$ mammalian cell culture $\cdot$ microfluidics $\cdot$ protein characterization $\cdot$ ImageJ $\cdot$ PAGE $\cdot$ transfection $\cdot$ device development $\cdot$ SOP writing  $\cdot$ nanoparticle synthesis (ultracentrifugation and vacuum distillation) and conjugation $\cdot$ cryopreservation $\cdot$ statistical analysis $\cdot$ 3D printing $\cdot$ CAD $\cdot$ Bash $\cdot$ Git $\cdot$ machine learning $\cdot$ \LaTeX } % machine shop
+    \small{
  %    \textbf{Languages}{: Chinese(intermediate } \\
  %    \textbf{Developer Tools}{: } \\
- \item{\textbf{Programming}{: Matlab $\cdot$ Python $\cdot$ R $\cdot$ SQL}}
-    }}
+ \item{\textbf{Libraries}{: Pytorch $\cdot$ Git $\cdot$ GCP $\cdot$ AWS $\cdot$ Kafka $\cdot$ Spark $\cdot$ Beam $\cdot$ Maven $\cdot$ Kubernetes $\cdot$ Claude Code $\cdot$ Pandas $\cdot$ matplotlib $\cdot$ Numaflow}}
+ \item{ \textbf{Languages}: MATLAB $\cdot$ Python $\cdot$ Java $\cdot$ R $\cdot$ SQL $\cdot$ GoLang $\cdot$ JavaScript }
+ \item{\textbf{Misc. Skills} : device development $\cdot$ data visualization $\cdot$ SOP writing}
+    }
  \end{itemize}
- % \vspace{-16pt}
-
-%-----------PROJECTS-----------------
-% \section{\textbf{Personal Projects}}
-% \resumeSubHeadingListStart
-
-%     \resumeProject
-%       {Project Name} %Project Name
-%       {Project description(Your input in the project)} %Project Name, Location Name
-%       {Event dates} %Event Dates
-
-%       \resumeItemListStart
-%         \item {Tools \& technologies used: xxx,xxx}
-%         \item {More description on the project(The output you achieved by working on the project)}
-%     \resumeItemListEnd
-%     \vspace{-2mm}
-    
-%     \resumeProject
-%       {Project Name} %Project Name
-%       {Project description(Your input in the project)} %Project Name, Location Name
-%       {Event dates} %Event Dates
-
-%       \resumeItemListStart
-%         \item {Tools \& technologies used: xxx,xxx}
-%         \item {More description on the project(The output you achieved by working on the project)}
-%     \resumeItemListEnd
-%     \vspace{-2mm}
-    
-      
-%   \resumeSubHeadingListEnd
-% \vspace{-5.5mm}
-
-
-%-----------Positions of Responsibility-----------------
-% \section{\textbf{Positions of Responsibility}}
-% \vspace{-0.4mm}
-% \resumeSubHeadingListStart
-% \resumePOR{Position, } % Position
-%     {Club or Event} %Club,Event
-%     {Position tenure} %Tenure Period
-% \resumePOR{Position, } % Position
-%     {Club or Event} %Club,Event
-%     {Position tenure} %Tenure Period
-% \resumeSubHeadingListEnd
-% \vspace{-5mm}
-
-%-----------Achievements-----------------
-% \section{\textbf{Achievements}}
-% \vspace{-0.4mm}
-% \resumeSubHeadingListStart
-% \resumePOR{Achievement } % Award
-%     {description} % Event
-%     {Event dates} %Event Year
-    
-% \resumePOR{Achievement } % Award
-%     {description} % Event
-%     {Event dates} %Event Year
-% \resumeSubHeadingListEnd
-% \vspace{-5mm}
-
-%-------------------------------------------
+ \vspace{-16pt}
 % \end{document}
